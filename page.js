@@ -1,6 +1,6 @@
 var lastPlayed = 'X';
-$(document).ready(function($){
-    $('td').click(function(){
+$(document).ready(function($) {
+    $('td').click(function() {
         clickCase($(this));
         if(detectWin()) {
             blockGame();
@@ -9,7 +9,7 @@ $(document).ready(function($){
     });
 });
 
-function clickCase(clickedBox){
+function clickCase(clickedBox) {
     if(!clickedBox.hasClass('filled')) {
         if(lastPlayed === 'X') {
             clickedBox.text('O').addClass('filled');
@@ -21,6 +21,14 @@ function clickCase(clickedBox){
     }
 }
 
-function detectWin(){
+function detectWin() {
     return false;
+}
+
+function blockGame() {
+
+}
+
+function displayWinAlert() {
+    
 }
