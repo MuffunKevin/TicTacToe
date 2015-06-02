@@ -1,5 +1,5 @@
 table {
- 
+
 }
 
 table td {
@@ -16,10 +16,10 @@ table td.filled {
 }
 
 #line1 .center {
-    border-bottom: 1px solid black;    
+    border-bottom: 1px solid black;
 }
 
-#line1 .rigth {
+#line1 .right {
     border-left: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -29,11 +29,11 @@ table td.filled {
 }
 
 #line2 .center {
-    
+
 }
 
-#line2 .rigth {
-    border-left: 1px solid black;   
+#line2 .right {
+    border-left: 1px solid black;
 }
 
 #line3 .left {
@@ -45,7 +45,7 @@ table td.filled {
     border-top: 1px solid black;
 }
 
-#line3 .rigth {
+#line3 .right {
     border-left: 1px solid black;
-    border-top: 1px solid black;   
+    border-top: 1px solid black;
 }
