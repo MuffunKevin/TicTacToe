@@ -2,7 +2,7 @@ var lastPlayed = 'X';
 $(document).ready(function($) {
     $('td').click(function() {
         clickCase($(this));
-        if(detectWin()) {
+        if(detectWin($)) {
             blockGame();
             displayWinAlert();
         }
@@ -21,14 +21,41 @@ function clickCase(clickedBox) {
     }
 }
 
-function detectWin() {
-    return false;
+function detectWin($) {
+    var win = false;
+
+    $('table tr').each(function () {
+        var valueToVerify = '';
+        var row = $(this);
+        $(row).children('td').each(function(indx) {
+            var currentValue = $(this).text();
+            
+            if(currentValue !== '') {
+                if(indx == 0) {
+                    valueToVerify = currentValue;
+                } else {
+                    if(valueToVerify !== currentValue) {
+                        return false;
+                    } else {
+                        if(indx === row.children('td').length -1) {
+                            win = true;
+                            return false;
+                        }
+                    }
+                }    
+            } else {
+                return false;
+            }
+        });
+    });
+
+    return win;
 }
 
 function blockGame() {
-
+    alert('win');
 }
 
 function displayWinAlert() {
-    
+
 }

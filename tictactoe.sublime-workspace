@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"cl",
+				"clickedBox"
+			],
+			[
+				"click",
+				"clickedBox"
+			],
+			[
+				"clic",
+				"clickCase"
+			],
+			[
 				"bo",
 				"border"
 			],
@@ -23,7 +35,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1445,
+				"buffer_size": 1447,
 				"line_ending": "Windows",
 				"name": "<html>"
 			}
@@ -32,7 +44,7 @@
 			"file": "page.css",
 			"settings":
 			{
-				"buffer_size": 387,
+				"buffer_size": 688,
 				"line_ending": "Windows"
 			}
 		},
@@ -40,15 +52,20 @@
 			"file": "page.js",
 			"settings":
 			{
-				"buffer_size": 38,
+				"buffer_size": 1451,
 				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 127.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -77,6 +94,8 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/TicTacToe/tictactoe.sublime-workspace",
+		"/C/xampp/htdocs/TicTacToe/.gitignore",
 		"/C/Users/Kevin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Kevin/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
 	],
@@ -118,7 +137,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -127,15 +146,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1445,
+						"buffer_size": 1447,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								300,
-								300
+								1271,
+								1271
 							]
 						],
 						"settings":
@@ -158,15 +177,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 387,
+						"buffer_size": 688,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9,
-								9
+								86,
+								86
 							]
 						],
 						"settings":
@@ -178,7 +197,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -187,15 +206,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 38,
+						"buffer_size": 1451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								34,
-								34
+								1200,
+								1200
 							]
 						],
 						"settings":
@@ -203,10 +222,10 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 110.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -247,6 +266,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "tictactoe.sublime-project",
 	"replace":
 	{
@@ -256,6 +276,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -264,6 +285,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -272,6 +294,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
